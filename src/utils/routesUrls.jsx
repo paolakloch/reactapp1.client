@@ -1,4 +1,5 @@
 const routesUrls = {
+    login: '/login',
     home: '/',
     empresa: '/empresa',
     about: '/about'

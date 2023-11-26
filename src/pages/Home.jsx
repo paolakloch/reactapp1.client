@@ -1,7 +1,7 @@
 // Exemplo de componente para a rota principal
 import React from 'react';
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div>
       <h2>Página Inicial</h2>
@@ -9,4 +9,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
