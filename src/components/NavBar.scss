@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba($color: #004AAD, $alpha: 0.8);
+    color: white;
+    height: 100px;
+}
+
+.navLogo {
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 40px;
+
+    img {
+        height: 70px;
+        width: 80px;
+    }
+}
+
+.navButton {
+    display: flex;
+    height: 100%;
+    margin-right: 20px;
+    
+    button {
+        color: white;
+        cursor: pointer;
+        background-color: transparent;
+        border-color: transparent;
+        height: 100%;
+        font-weight: bold;
+    }
+
+    :hover {
+        background-color: rgba($color: #76aef7, $alpha: 1.0);
+        color: black;
+        font-weight: bold;
+    }
+}
