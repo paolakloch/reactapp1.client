@@ -1,10 +1,13 @@
-// Exemplo de componente para outra rota
+// Exemplo de componente para a rota principal
 import React from 'react';
 
 const Empresa = () => {
   return (
-      <h2>empresa</h2>
+    <div>
+      <h2>Página Inicial</h2>
+    </div>
   );
 };
 
 export default Empresa;
+

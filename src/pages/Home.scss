@@ -1,0 +1,118 @@
+.homepage-frase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://images.pexels.com/photos/8822081/pexels-photo-8822081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.homepage-square {
+  text-align: center;
+  width: 700px;
+  height: 200px;
+  padding: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  background-color: #004aad;
+
+  img {
+    width: 20px;
+    z-index: 3;
+    display: flex;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 600px;
+    border-color: #004aad;
+    border-radius: 4px;
+    border: 3px solid #004aad;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    img{
+      width: 150px;
+      height: 200px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      height: 30px;
+      text-align: center;
+    }
+
+    p {
+      height: 150px;
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+
+    button {
+      text-align: center;
+      border: none;
+      height: 30px;
+      width: 200px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #004aad;
+
+      button :hover {
+        background-color: #004aad;
+        color: white;
+      }
+    }
+  }
+}
+
+.container {
+  border-radius: 4px;
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    
+    margin-bottom: 50px;
+    color: #004aad
+  }
+
+  p {
+    text-align: center;
+  }
+
+  margin-bottom: 100px;
+}
+
+.abc {
+  height: 500px;
+  background-image: url("img/6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  h1 {
+    text-align: center;
+  }
+}
