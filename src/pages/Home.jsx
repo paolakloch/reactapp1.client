@@ -9,7 +9,7 @@ const Home = () => {
   const cards = [
     {
       src: img1,
-      title: "Conscientização e Educação",
+      title: "Conscientização",
       description: ` Treinamentos regulares para gestores e colaboradores sobre sinais
       de estresse, ansiedade e depressão, bem como estratégias para
       lidar com essas questões.`,
@@ -43,17 +43,21 @@ const Home = () => {
     },
   ];
   return (
-    <>
+    <div class="homepage">
       <div class="homepage-frase">
         <div class="homepage-square">
+          <div class="frase">
           <img
             src="https://www.rpinfo.com.br/views/geral/img/aspas.png"
-            alt="sky"
+            alt="aspas"
           />
           <h2>
             Só a experiência própria é capaz de tornar sábio o ser humano.
           </h2>
-          <h4> Sigmund Freud </h4>
+          </div>
+          <div>
+            <h4> Sigmund Freud </h4>
+          </div>
         </div>
       </div>
       <div class="container">
@@ -61,7 +65,7 @@ const Home = () => {
         <div class="grid">
           {cards.map((card) => (
             <div class="card">
-              <img src={card.src}  />
+              <img src={card.src} />
               <h2>{card.title}</h2>
               <p>{card.description}</p>
               <button type="button">{card.actionText}</button>
@@ -69,10 +73,8 @@ const Home = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
 export default Home;
-
-
