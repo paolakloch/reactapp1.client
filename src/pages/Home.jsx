@@ -57,7 +57,7 @@ const Home = () => {
         </div>
       </div>
       <div class="container">
-        <h1>RECURSOS</h1>
+        <h1>Como está se sentindo?</h1>
         <div class="grid">
           {cards.map((card) => (
             <div class="card">
@@ -67,37 +67,6 @@ const Home = () => {
               <button type="button">{card.actionText}</button>
             </div>
           ))}
-        </div>
-      </div>
-      <div class="abc">
-        <h1>Como está se sentindo?</h1>
-        <p>
-          Nossa empresa traz programas de bem-estar que incluem atividades
-          físicas, mindfulness, yoga e outras práticas que promovem o equilíbrio
-          emocional.
-        </p>
-        <div class="list">
-          <ul>
-            <h2>Inscreva-se já em alguma de nossas atividades:</h2>
-            <li>
-              <a href="GymPass.html">GymPass</a>
-            </li>
-            <li>
-              <a href="GymPass.html">Mindfulness</a>
-            </li>
-            <li>
-              <a href="GymPass.html">Yoga</a>
-            </li>
-            <li>
-              <a href="GymPass.html">Meditação</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="banner4">
-        <img src="img/7.png" alt="" class="flex" />
-        <div class="flex">
-          <h1>Depoimentos:</h1>
         </div>
       </div>
     </>
